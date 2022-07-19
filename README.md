@@ -97,6 +97,14 @@ roslaunch ur_move_test ur5_move_test.launch
 ```
 Note, replace **10.32.134.142** with your robot ip in the launch file **"/home/yan/catkin_ws/src/ur_move_test/launch/ur5_move_test.launch"** 
 
+
+### Manipulate UR5e using Python
+```
+python /home/yan/catkin_ws/src/ur_move_test/scripts/ur_move_test_node.py
+```
+Note, replace **'/home/yan/catkin_ws/src/ur_move_test/scripts/'** with your own path
+
+
 ## Manipulate Gripper (Robotiq Hand-E)
 ```
 sudo usermod -a -G dialout $USER 
